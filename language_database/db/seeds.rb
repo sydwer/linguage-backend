@@ -922,8 +922,8 @@ arabic = Language.create(
     contrastive_diacritic: "stress-timed syllables, uses vowel length and consonant aspiration to distinguish words",
     syllable_structure:"cv",
     syllable_structure_2:"cvv",
-    # john: ,
-    # mary:,
+    john: "jahja",
+    mary:"marjam",
 )
 english = Language.create(
     name: "English", 
@@ -957,8 +957,8 @@ german = Language.create(
     contrastive_diacritic: "stress-timed syllables",
     syllable_structure:"cv",
     syllable_structure_2:"cvc",
-    # john: ,
-    # mary:,
+    john: "hans",
+    mary:"mɛri",
 )
 hawaiian = Language.create(
     name: "Hawaiian", 
@@ -974,8 +974,8 @@ hawaiian = Language.create(
     contrastive_diacritic: "vowel length is used to distinguish words, and declension is used to identify the class/gender of a word",
     syllable_structure:"cvv",
     syllable_structure_2:"cv",
-    # john: ,
-    # mary:,
+    john: "hone" ,
+    mary:"malia",
 )
 japanese = Language.create(
     name: "Japanese", 
@@ -991,8 +991,8 @@ japanese = Language.create(
     contrastive_diacritic: "mora-timed syllables, and uses vowel length to distinguish words",
     syllable_structure:"cv",
     syllable_structure_2:"vn",
-    # john: ,
-    # mary:,
+    john: "d͡ʒon" ,
+    mary: "mɜɾi",
 )
 #n means it would have to be an n for the consonant
 korean = Language.create(
@@ -1009,8 +1009,8 @@ korean = Language.create(
     contrastive_diacritic: "syllable-timed, and uses aspiration to distinguish words",
     syllable_structure:"cv",
     syllable_structure_2:"cvc",
-    # john: ,
-    # mary:,
+    john: "joan",
+    mary:"mɜɾi",
 )
 mandarin = Language.create(
     name: "Mandarin", 
@@ -1026,8 +1026,8 @@ mandarin = Language.create(
     contrastive_diacritic: "stress-timed, and uses tone to distinguish words",
     syllable_structure:"cv",
     syllable_structure_2:"vn",
-    # john: ,
-    # mary:,
+    john: "ʈ͡ʂan",
+    mary:"maɾija",
 )
 #n means it would have to be an n for the consonant
 navajo = Language.create(
@@ -1043,8 +1043,8 @@ navajo = Language.create(
     noun_classes: 2,
     contrastive_diacritic: "uses tone, phonemic length, and aspiration to distinguish words",
     syllable_structure:"c?v",
-    # john: ,
-    # mary:,
+    john: "dʒɔn",
+    mary:"meɣi",
 )
 #? means either c or v
 spanish = Language.create(
@@ -1061,8 +1061,8 @@ spanish = Language.create(
     contrastive_diacritic: "a syllable-timed language",
     syllable_structure:"cv",
     syllable_structure_2:"ccv",
-    # john: ,
-    # mary:,
+    john: "hjaŋ",
+    mary: "maɾija",
 )
 swahili = Language.create(
     name: "Swahili", 
@@ -1077,8 +1077,8 @@ swahili = Language.create(
     noun_classes: 18,
     contrastive_diacritic: "vowels are never reduced,regardless of stress. Some dialects use aspiration to distinguish words",
     syllable_structure:"cv",
-    # john: ,
-    # mary:,
+    john: "d͡ʒnɛ",
+    mary:"mɑriɑ",
 )
 
 #LANGUAGE PHONEMES
