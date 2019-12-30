@@ -939,8 +939,8 @@ english = Language.create(
     contrastive_diacritic: "stressed-timed syllables",
     syllable_structure:"ccv",
     syllable_structure_2:"cv",
-    # john: ,
-    # mary:,
+    john: "d͡ʒan",
+    mary:"mɛri",
 )
 
 german = Language.create(
