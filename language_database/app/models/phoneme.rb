@@ -1,0 +1,2 @@
+class Phoneme < ApplicationRecord
+end
