@@ -1,3 +1,4 @@
+Comparison.destroy_all
 LanguagePhoneme.destroy_all
 Language.destroy_all
 LanguageFamily.destroy_all
@@ -1441,7 +1442,7 @@ def phonemeDiff(native_language, target_language)
         end
     end
 
-    return (uniqMeans + uniqSounds.length)/1.5
+    return (uniqMeans + uniqSounds.length)/2
 end
 
 def familyDiff(lang1, lang2)
@@ -1453,12 +1454,17 @@ def familyDiff(lang1, lang2)
     if distance < 20
         return distance
     else 
-        return 20 + distance/75 
+        return 20 + distance/75
     end
 end
 
 def nounClassDiff(lang1, lang2)
-    Math.sqrt((lang1.noun_classes - lang2.noun_classes)**2) * 2
+    diff = (lang1.noun_classes - lang2.noun_classes) 
+    if diff > 10 || diff < -10
+        return 5
+    else 
+        return diff 
+    end
 end
 
 def morphologyDiff(lang1, lang2)
