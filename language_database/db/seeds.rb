@@ -1459,7 +1459,6 @@ def familyDiff(lang1, lang2)
 end
 
 def nounClassDiff(lang1, lang2)
-    # Math.sqrt((lang1.noun_classes - lang2.noun_classes)**2) * 2 
     diff = (lang1.noun_classes - lang2.noun_classes) 
     if diff > 10 || diff < -10
         return 5
