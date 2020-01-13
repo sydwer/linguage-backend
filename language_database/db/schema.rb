@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_30_224104) do
+ActiveRecord::Schema.define(version: 2020_01_13_211436) do
 
   create_table "comparisons", force: :cascade do |t|
     t.integer "native_language_id"
@@ -80,6 +80,7 @@ ActiveRecord::Schema.define(version: 2019_12_30_224104) do
     t.string "category"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "sound_url"
   end
 
   add_foreign_key "language_phonemes", "languages"
