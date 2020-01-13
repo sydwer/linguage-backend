@@ -104,37 +104,42 @@ p = Phoneme.create(
     place: "bilabial",
     manner: "plosive",
     category: "consonant",
-    sound_url: "",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_bilabial_plosive.mp3",
 )
 b = Phoneme.create(
     symbol: "b",
     place: "bilabial",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_bilabial_plosive.mp3"
 )
 t = Phoneme.create(
     symbol: "t",
     place: "alveolar",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_alveolar_plosive.mp3"
 )
 d = Phoneme.create(
     symbol: "d",
     place: "alveolar",
     manner: "plosive",
-    category: "consonant", 
+    category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolar_plosive.mp3" 
 )
 ʈ = Phoneme.create(
     symbol: "ʈ",
     place: "retroflex",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_retroflex_plosive.mp3"
 )
 ɖ = Phoneme.create(
     symbol: "ɖ",
     place: "retroflex",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_retroflex_plosive.mp3"
     
 )
 tɬ = Phoneme.create(
@@ -142,6 +147,7 @@ tɬ = Phoneme.create(
     place: "alveolar",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_alveolar_affricate.mp3"
     
 )
 m = Phoneme.create(
@@ -213,6 +219,7 @@ r = Phoneme.create(
     place: "bilabial",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_bilabial_fricative.mp3"
     
 )
 β = Phoneme.create(
@@ -220,6 +227,7 @@ r = Phoneme.create(
     place: "bilabial",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_bilabial_fricative.mp3"
     
 )
 f = Phoneme.create(
@@ -227,72 +235,84 @@ f = Phoneme.create(
     place: "labiodental",
     manner: "fricative",
     category: "consonant",
+    sound_url:"http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_labiodental_fricative.mp3"
 )
 v = Phoneme.create(
     symbol: "v",
     place: "labiodental",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_labiodental_fricative.mp3"
 )
 θ = Phoneme.create(
     symbol: "θ",
     place: "dental",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_dental_fricative.mp3"
 )
 ð = Phoneme.create(
     symbol: "ð",
     place: "dental",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_dental_fricative.mp3"
 )
 s = Phoneme.create(
     symbol: "s",
     place: "alveolar",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_alveolar_fricative.mp3"
 )
 z = Phoneme.create(
     symbol: "z",
     place: "alveolar",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolar_fricative.mp3"
 )
 ʃ = Phoneme.create(
     symbol: "ʃ",
     place: "post-alveolar",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_postalveolar_fricative.mp3"
 )
 ʒ = Phoneme.create(
     symbol: "ʒ",
     place: "post-alveolar",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_postalveolar_fricative.mp3"
 )
 ʂ = Phoneme.create(
     symbol: "ʂ",
     place: "retroflex",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_retroflex_fricative.mp3"
 )
 ʐ = Phoneme.create(
     symbol: "ʐ",
     place: "retroflex",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_retroflex_fricative.mp3"
 )
 ɬ = Phoneme.create(
     symbol: "ɬ",
     place: "alveolar",
     manner: "lateral fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_alveolar_lateral_fricative.mp3"
 )
 ɮ = Phoneme.create(
     symbol: "ɮ",
     place: "alveolar",
     manner: "lateral fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolar_lateral_fricative.mp3"
 )
 ʋ = Phoneme.create(
     symbol: "ʋ",
@@ -320,6 +340,7 @@ l = Phoneme.create(
     place: "alveolar",
     manner: "lateral approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_lateral_approximant.mp3"
 )
 ɭ = Phoneme.create(
     symbol: "ɭ",
@@ -333,36 +354,42 @@ c = Phoneme.create(
     place: "palatal",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_palatal_plosive.mp3"
 )
 ɟ = Phoneme.create(
     symbol: "ɟ",
     place: "palatal",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_palatal_plosive.mp3"
 )
 k = Phoneme.create(
     symbol: "k",
     place: "velar",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_velar_plosive.mp3"
 )
 g = Phoneme.create(
     symbol: "g",
     place: "velar",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_velar_plosive.mp3"
 )
 q = Phoneme.create(
     symbol: "q",
     place: "uvular",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_uvular_plosive.mp3"
 )
 ɢ = Phoneme.create(
     symbol: "ɢ",
     place: "uvular",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_uvular_plosive.mp3"
 )
 ʔ = Phoneme.create(
     symbol: "ʔ",
@@ -405,60 +432,70 @@ q = Phoneme.create(
     place: "palatal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_palatal_fricative.mp3"
 )
 ʝ = Phoneme.create(
     symbol: "ʝ",
     place: "palatal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_palatal_fricative.mp3"
 )
 x = Phoneme.create(
     symbol: "x",
     place: "velar",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_velar_fricative.mp3"
 )
 ɣ = Phoneme.create(
     symbol: "ɣ",
     place: "velar",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_velar_fricative.mp3"
 )
 χ = Phoneme.create(
     symbol: "χ",
     place: "uvular",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_uvular_fricative.mp3"
 )
 ʁ = Phoneme.create(
     symbol: "ʁ",
     place: "uvular",
     manner: "fricative",
     category: "consonant",
+    sound_url:"http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_uvular_fricative.mp3"
 )
 ħ = Phoneme.create(
     symbol: "ħ",
     place: "pharyngeal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_pharyngeal_fricative.mp3"
 )
 ʕ = Phoneme.create(
     symbol: "ʕ",
     place: "pharyngeal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_pharyngeal_fricative.mp3"
 )
 h = Phoneme.create(
     symbol: "h",
     place: "glottal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_glottal_fricative.mp3"
 )
 ɦ = Phoneme.create(
     symbol: "ɦ",
     place: "glottal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_glottal_fricative.mp3"
 )
 j = Phoneme.create(
     symbol: "j",
@@ -472,6 +509,7 @@ j = Phoneme.create(
     place: "velar",
     manner: "approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_velar_approximant.mp3"
 )
 ʎ = Phoneme.create(
     symbol: "ʎ",
@@ -492,6 +530,7 @@ w = Phoneme.create(
     place: "labio-velar",
     manner: "approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_labio-velar_approximant.mp3"
 )
 #end pulmonic consts
 ʘ = Phoneme.create(
@@ -534,30 +573,35 @@ bang = Phoneme.create(
     place: "bilabial",
     manner: "implosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_bilabial_implosive.mp3"
 )
 ɗ = Phoneme.create(
     symbol: "ɗ",
-    place: "dental",
+    place: "alveolar",
     manner: "implosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolar_implosive.mp3"
 )
 ʄ = Phoneme.create(
     symbol: "ʄ",
     place: "palatal",
     manner: "implosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_palatal_implosive.mp3"
 )
 ɠ = Phoneme.create(
     symbol: "ɠ",
     place: "velar",
     manner: "implosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_velar_implosive.mp3"
 )
 ʛ = Phoneme.create(
     symbol: "ʛ",
     place: "uvular",
     manner: "implosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_uvular_implosive.mp3"
 )
 
 #end non-pulmonic
@@ -567,60 +611,71 @@ t͡s = Phoneme.create(
     place: "alveolar",
     manner: "affricate",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_alveolar_affricate.mp3"
 )
 t͡ʃ = Phoneme.create(
     symbol: "t͡ʃ",
     place: "palato-alveolar",
     manner: "affricate",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_palato-alveolar_affricate.mp3"
+    
 )
 t͡ɕ = Phoneme.create(
     symbol: "t͡ɕ",
     place: "alveolo-palatal",
     manner: "affricate",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_alveolo-palatal_affricate.mp3"
 )
 ʈ͡ʂ = Phoneme.create(
     symbol: "ʈ͡ʂ",
     place: "retroflex",
     manner: "affricate",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_retroflex_affricate.mp3"
 )
 d͡z = Phoneme.create(
     symbol: "d͡z",
     place: "alveolar",
     manner: "affricate",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolar_affricate.mp3"
 )
 d͡ʒ = Phoneme.create(
     symbol: "d͡ʒ",
     place: "post-alveolar",
     manner: "affricate",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_postalveolar_affricate.mp3"
 )
 d͡ʑ = Phoneme.create(
     symbol: "d͡ʑ",
     place: "alveolo-palatal",
     manner: "affricate",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolo-palatal_affricate.mp3"
 )
 ɖ͡ʐ = Phoneme.create(
     symbol: "ɖ͡ʐ",
     place: "retroflex",
     manner: "affricate",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_retroflex_affricate.mp3"
 )
 p̪͡f = Phoneme.create(
     symbol: "p̪͡f",
     place: "labiodental",
     manner: "affricate",
     category: "consonant",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/8/83/Voiceless_labiodental_affricate.ogg"
 )
 ɟʝ = Phoneme.create(
     symbol: "ɟʝ",
     place: "palatal",
     manner: "affricate",
     category: "consonant",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Voiced_palatal_affricate.ogg"
 )
 
 #end affricates
@@ -637,41 +692,48 @@ p̪͡f = Phoneme.create(
     place: "epiglottal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_epiglottal_fricative.mp3"
 )
 ʢ = Phoneme.create(
     symbol: "ʢ",
     place: "epiglottal",
     manner: "fricative",
     category: "consonant",
+    sound_url:"http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_epiglottal_fricative.mp3"
 )
 ʡ = Phoneme.create(
     symbol: "ʡ",
     place: "epiglottal",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_epiglottal_plosive.mp3"
 )
 ɕ = Phoneme.create(
     symbol: "ɕ",
     place: "alveolo-palatal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_alveolo-palatal_fricative.mp3"
 )
 ʑ = Phoneme.create(
     symbol: "ʑ",
     place: "alveolo-palatal",
     manner: "fricative",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolo-palatal_fricative.mp3"
 )
 ɺ = Phoneme.create(
     symbol: "ɺ",
     place: "alveolar",
     manner: "lateral flap",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_tap.mp3"
 )
 ɧ = Phoneme.create(
     symbol: "ɧ",
     place: "post-alveolar-velar",
     manner: "fricative",
     category: "consonant",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/4/42/Voiceless_dorso-palatal_velar_fricative.ogg"
 )
 #end "other"
 # begin basic vowels
@@ -878,24 +940,28 @@ a = Phoneme.create(
     place: "back",
     manner: "rotic",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-er.ogg"
 )
 ɔ˞ = Phoneme.create(
     symbol: "ɔ˞",
     place: "back",
     manner: "rotic",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/PR-open-mid_back_rounded_vowel.ogg"
 )
 ɑ˞ = Phoneme.create(
     symbol: "ɔɑ˞",
     place: "back",
     manner: "rotic",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-er.ogg"
 )
 ɝ = Phoneme.create(
     symbol: "ɝ",
     place: "mid",
     manner: "rotic",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-er.ogg"
 )
 
 #begin dipthongs
