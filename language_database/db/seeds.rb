@@ -104,6 +104,7 @@ p = Phoneme.create(
     place: "bilabial",
     manner: "plosive",
     category: "consonant",
+    sound_url: "",
 )
 b = Phoneme.create(
     symbol: "b",
@@ -148,6 +149,7 @@ m = Phoneme.create(
     place: "bilabial",
     manner: "nasal",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Bilabial_nasal.mp3",
     
 )
 ɱ = Phoneme.create(
@@ -155,6 +157,7 @@ m = Phoneme.create(
     place: "labiodental",
     manner: "nasal",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Labiodental_nasal.mp3"
     
 )
 n = Phoneme.create(
@@ -162,6 +165,7 @@ n = Phoneme.create(
     place: "alveolar",
     manner: "nasal",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_nasal.mp3",
     
 )
 ɳ = Phoneme.create(
@@ -169,6 +173,7 @@ n = Phoneme.create(
     place: "retroflex",
     manner: "nasal",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Retroflex_nasal.mp3"
     
 )
 ʙ = Phoneme.create(
@@ -176,6 +181,7 @@ n = Phoneme.create(
     place: "bilabial",
     manner: "trill",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Bilabial_trill.mp3",
     
 )
 r = Phoneme.create(
@@ -183,6 +189,7 @@ r = Phoneme.create(
     place: "alveolar",
     manner: "trill",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_trill.mp3"
     
 )
 ɾ = Phoneme.create(
@@ -190,6 +197,7 @@ r = Phoneme.create(
     place: "alveolar",
     manner: "tap",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_tap.mp3"
     
 )
 ɽ = Phoneme.create(
@@ -197,6 +205,7 @@ r = Phoneme.create(
     place: "retroflex",
     manner: "tap",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Retroflex_flap.mp3"
     
 )
 ɸ = Phoneme.create(
@@ -290,18 +299,21 @@ z = Phoneme.create(
     place: "labiodental",
     manner: "approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Labiodental_approximant.mp3"
 )
 ɹ = Phoneme.create(
     symbol: "ɹ",
     place: "alveolar",
     manner: "approximant",
     category: "consonant",
+    sound_url:"http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_approximant.mp3"
 )
 ɻ = Phoneme.create(
     symbol: "ɻ",
     place: "retroflex",
     manner: "approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Retroflex_approximant.mp3"
 )
 l = Phoneme.create(
     symbol: "l",
@@ -314,6 +326,7 @@ l = Phoneme.create(
     place: "retroflex",
     manner: "lateral approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Retroflex_lateral_approximant.mp3"
 )
 c = Phoneme.create(
     symbol: "c",
@@ -356,30 +369,35 @@ q = Phoneme.create(
     place: "glottal",
     manner: "plosive",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Glottal_stop.mp3"
 )
 ɲ = Phoneme.create(
     symbol: "ɲ",
     place: "palatal",
     manner: "nasal",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Palatal_nasal.mp3"
 )
 ŋ = Phoneme.create(
     symbol: "ŋ",
     place: "velar",
     manner: "nasal",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Velar_nasal.mp3"
 )
 ɴ = Phoneme.create(
     symbol: "ɴ",
     place: "uvular",
     manner: "nasal",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Uvular_nasal.mp3"
 )
 ʀ = Phoneme.create(
     symbol: "ʀ",
     place: "uvular",
     manner: "trill",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Uvular_trill.mp3"
 
 )
 ç = Phoneme.create(
@@ -447,6 +465,7 @@ j = Phoneme.create(
     place: "palatal",
     manner: "approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Palatal_approximant.mp3"
 )
 ɰ = Phoneme.create(
     symbol: "ɰ",
@@ -459,12 +478,14 @@ j = Phoneme.create(
     place: "palatal",
     manner: "lateral approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Palatal_lateral_approximant.mp3"
 )
 ʟ = Phoneme.create(
     symbol: "ʟ",
     place: "velar",
     manner: "lateral approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Velar_lateral_approximant.mp3"
 )
 w = Phoneme.create(
     symbol: "w",
@@ -478,30 +499,35 @@ w = Phoneme.create(
     place: "bilabial",
     manner: "click",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Bilabial_click.mp3"
 )
 ǀ = Phoneme.create(
     symbol: "ǀ",
     place: "dental",
     manner: "click",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Dental_click.mp3"
 )
 bang = Phoneme.create(
     symbol: "!",
     place: "alveolar",
     manner: "click",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_lateral_click.mp3"
 )
 ǂ = Phoneme.create(
     symbol: "ǂ",
     place: "palato-alveolar",
     manner: "click",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Palatoalveolar_click.mp3"
 )
 ǁ = Phoneme.create(
     symbol: "ǁ",
     place: "alveolar lateral",
     manner: "click",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Postalveolar_click.mp3"
 )
 ɓ = Phoneme.create(
     symbol: "ɓ",
@@ -533,16 +559,7 @@ bang = Phoneme.create(
     manner: "implosive",
     category: "consonant",
 )
-◌ʼ = Phoneme.create(
-    symbol: "◌ʼ",
-    manner: "ejective",
-    category: "consonant",
-)
-◌ˤ = Phoneme.create(
-    symbol: "◌ˤ",
-    manner: "pharyngealization",
-    category: "consonant",
-)
+
 #end non-pulmonic
 #start affricates
 t͡s = Phoneme.create(
@@ -613,6 +630,7 @@ p̪͡f = Phoneme.create(
     place: "labio-palatal",
     manner: "approximant",
     category: "consonant",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Labial-palatal_approximant.mp3"
 )
 ʜ = Phoneme.create(
     symbol: "ʜ",
@@ -662,168 +680,196 @@ i = Phoneme.create(
     place: "front",
     manner: "close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_front_unrounded_vowel.mp3"
 )
 y = Phoneme.create(
     symbol: "y",
     place: "front",
     manner: "close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_front_rounded_vowel.mp3"
 )
 ɨ = Phoneme.create(
     symbol: "ɨ",
     place: "central",
     manner: "close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_central_unrounded_vowel.mp3"
 )
 ʉ = Phoneme.create(
     symbol: "ʉ",
     place: "central",
     manner: "close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_central_rounded_vowel.mp3"
 )
 ɯ = Phoneme.create(
     symbol: "ɯ",
     place: "back",
     manner: "close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_back_unrounded_vowel.mp3"
 )
 u = Phoneme.create(
     symbol: "u",
     place: "back",
     manner: "close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_back_rounded_vowel.mp3"
 )
 ɪ = Phoneme.create(
     symbol: "ɪ",
     place: "near-front",
     manner: "near-close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-close_near-front_unrounded_vowel.mp3"
 )
 ʏ = Phoneme.create(
     symbol: "ʏ",
     place: "near-front",
     manner: "near-close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-close_near-front_rounded_vowel.mp3"
 )
 ʊ = Phoneme.create(
     symbol: "ʊ",
     place: "near-back",
     manner: "near-close",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-close_near-back_rounded_vowel.mp3"
 )
 e = Phoneme.create(
     symbol: "e",
     place: "front",
     manner: "close-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_front_unrounded_vowel.mp3"
 )
 ø = Phoneme.create(
     symbol: "ø",
-    place: "near-front",
+    place: "front",
     manner: "close-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_front_rounded_vowel.mp3"
 )
 ɘ = Phoneme.create(
     symbol: "ɘ",
     place: "central",
     manner: "close-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_central_unrounded_vowel.mp3"
 )
 ɵ = Phoneme.create(
     symbol: "ɵ",
-    place: "near-back",
+    place: "central",
     manner: "close-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_central_rounded_vowel.mp3"
 )
 ɤ = Phoneme.create(
     symbol: "ɤ",
     place: "back",
     manner: "close-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_back_unrounded_vowel.mp3",
 )
 o = Phoneme.create(
     symbol: "o",
     place: "back",
     manner: "close-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_back_rounded_vowel.mp3",
 )
 ɛ = Phoneme.create(
     symbol: "ɛ",
-    place: "near-front",
+    place: "front",
     manner: "open-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_front_unrounded_vowel.mp3"
 )
 œ = Phoneme.create(
     symbol: "œ",
-    place: "central",
+    place: "mid-front",
     manner: "open-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_front_rounded_vowel.mp3"
 )
 ɜ = Phoneme.create(
     symbol: "ɜ",
     place: "central",
     manner: "open-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_central_unrounded_vowel.mp3"
 )
 ɞ = Phoneme.create(
     symbol: "ɞ",
     place: "near-back",
     manner: "open-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_central_rounded_vowel.mp3"
 )
 ʌ = Phoneme.create(
     symbol: "ʌ",
     place: "back",
     manner: "open-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_back_unrounded_vowel.mp3"
 )
 ə = Phoneme.create(
     symbol: "ə",
-    place: "back",
-    manner: "open-mid",
+    place: "central",
+    manner: "mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Mid-central_vowel.mp3"
 )
 ɔ = Phoneme.create(
     symbol: "ɔ",
     place: "back",
     manner: "open-mid",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_back_rounded_vowel.mp3"
 )
 æ = Phoneme.create(
     symbol: "æ",
-    place: "near-front",
+    place: "front",
     manner: "near-open",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-open_front_unrounded_vowel.mp3"
 )
 ɐ = Phoneme.create(
     symbol: "ɐ",
-    place: "near-back",
+    place: "central",
     manner: "near-open",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-open_central_unrounded_vowel.mp3"
 )
 a = Phoneme.create(
     symbol: "a",
     place: "central",
     manner: "open",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open_front_rounded_vowel.mp3"
 )
 ä = Phoneme.create(
     symbol: "ä",
     place: "near-back",
     manner: "open",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open_front_unrounded_vowel.mp3"
 )
 ɑ = Phoneme.create(
     symbol: "ɑ",
     place: "back",
     manner: "open",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open_back_unrounded_vowel.mp3"
 )
 ɒ = Phoneme.create(
     symbol: "ɒ",
     place: "back",
     manner: "open",
     category: "vowel",
+    sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open_back_rounded_vowel.mp3"
 )
 #end basic vowels
 #begin rotic vowels
@@ -1354,8 +1400,8 @@ LanguagePhoneme.create(language_id: arabic.id, phoneme_id: d͡ʒ.id)
 LanguagePhoneme.create(language_id: arabic.id, phoneme_id: i.id)
 LanguagePhoneme.create(language_id: arabic.id, phoneme_id: u.id)
 LanguagePhoneme.create(language_id: arabic.id, phoneme_id: a.id)
-LanguagePhoneme.create(language_id: arabic.id, phoneme_id: ◌ˤ.id)
-LanguagePhoneme.create(language_id: arabic.id, phoneme_id: ◌ʼ.id)
+# LanguagePhoneme.create(language_id: arabic.id, phoneme_id: ◌ˤ.id)
+# LanguagePhoneme.create(language_id: arabic.id, phoneme_id: ◌ʼ.id)
 #swahili
 LanguagePhoneme.create(language_id: swahili.id, phoneme_id: m.id)
 LanguagePhoneme.create(language_id: swahili.id, phoneme_id: n.id)
