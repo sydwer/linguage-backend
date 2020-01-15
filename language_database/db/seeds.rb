@@ -62,20 +62,20 @@ athabaskan = LanguageFamily.create(
     y_coordinate:-477.705883,
 )
 #MORPHOLOGIES
-polysynthetic = Morphology.create(name: "polysynthetic", coordinate_value: 5)
-agglutinative = Morphology.create(name: "agglutinative", coordinate_value: 4)
-fusional = Morphology.create(name: "fusional", coordinate_value: 3)
-analytic = Morphology.create(name: "analytic", coordinate_value: 0)
+polysynthetic = Morphology.create(name: "Polysynthetic", coordinate_value: 5)
+agglutinative = Morphology.create(name: "Agglutinative", coordinate_value: 4)
+fusional = Morphology.create(name: "Fusional", coordinate_value: 3)
+analytic = Morphology.create(name: "Analytic", coordinate_value: 0)
 
 #ORTHOGRAPHIES
 latin = Orthography.create(
-    name:"the Latin alphabet",
+    name:"The Latin alphabet",
     system:"alphabetic (every symbol represents a consonant or vowel)",
     coordinate_value: 1,
 )
 
 kana = Orthography.create(
-    name:"a combination of Kanji and Kana(Hirigana and Katakana)",
+    name:"Hirigana, Katakana, and Kanji",
     system:"Kanji is logographic (each symbol represents a word), Kana is syllabic (each symbol represents a syllable)",
     coordinate_value: 3,
 )
@@ -970,54 +970,71 @@ aɪ = Phoneme.create(
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
 )
 eɪ = Phoneme.create(
     symbol: "eɪ",
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
+
 )
 oʊ = Phoneme.create(
     symbol: "oʊ",
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
+
 )
 aʊ = Phoneme.create(
     symbol: "aʊ",
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
+
 )
 eə = Phoneme.create(
     symbol: "eə",
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
+
 )
 ɪə = Phoneme.create(
     symbol: "ɪə",
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
+
 )
 ɔɪ = Phoneme.create(
     symbol: "ɔɪ",
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
+
 )
 ʊə = Phoneme.create(
     symbol: "ʊə",
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
+
 )
 ɔʏ = Phoneme.create(
     symbol: "ɔʏ",
     place: "variant",
     manner: "dipthong",
     category: "vowel",
+    sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg"
+
 )
 
 #LANGUAGES
