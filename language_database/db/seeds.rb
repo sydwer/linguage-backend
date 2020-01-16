@@ -82,7 +82,7 @@ analytic = Morphology.create(
 #ORTHOGRAPHIES
 latin = Orthography.create(
     name:"The Latin alphabet",
-    system:"alphabetic (every symbol represents a consonant or vowel)",
+    system:"Alphabetic (every symbol represents a consonant or vowel)",
     coordinate_value: 1,
 )
 
@@ -93,18 +93,18 @@ kana = Orthography.create(
 )
 arabic_script = Orthography.create(
     name:"Arabic script",
-    system:"abjad (each symbol represents a consonant, so the reader must supply the appropriate vowel)",
+    system:"Abjad (each symbol represents a consonant, so the reader must supply the appropriate vowel)",
     coordinate_value: 4,
 )
 
 hangul = Orthography.create(
     name:"Hangul",
-    system:"syllabic (each symbol represents a syllable)",
+    system:"Syllabic (each symbol represents a syllable)",
     coordinate_value: 2,
 )
 hanzi = Orthography.create(
     name:"Hanzi",
-    system:"logographic (each symbol represents both a word and a sound)",
+    system:"Logographic (each symbol represents both a word and a sound)",
     coordinate_value: 5,
 )
 
@@ -1061,7 +1061,7 @@ arabic = Language.create(
     language_family_id: semitic.id,
     orthography_id: arabic_script.id,
     noun_classes: 2,
-    contrastive_diacritic: "stress-timed syllables, uses vowel length and consonant aspiration to distinguish words",
+    contrastive_diacritic: "Stress-timed syllables, uses vowel length and consonant aspiration to distinguish words",
     syllable_structure:"cv",
     syllable_structure_2:"cvv",
     john: "jahja",
@@ -1078,7 +1078,7 @@ english = Language.create(
     language_family_id: germanic.id,
     orthography_id: latin.id,
     noun_classes: 0,
-    contrastive_diacritic: "stressed-timed syllables",
+    contrastive_diacritic: "Stressed-timed syllables",
     syllable_structure:"ccv",
     syllable_structure_2:"cv",
     john: "d͡ʒan",
@@ -1096,7 +1096,7 @@ german = Language.create(
     language_family_id: germanic.id,
     orthography_id: latin.id,
     noun_classes: 3,
-    contrastive_diacritic: "stress-timed syllables",
+    contrastive_diacritic: "Stress-timed syllables, strict placement of verbs within sentances",
     syllable_structure:"cv",
     syllable_structure_2:"cvc",
     john: "hans",
@@ -1113,7 +1113,7 @@ hawaiian = Language.create(
     language_family_id: polynesian.id,
     orthography_id: latin.id,
     noun_classes: 2,
-    contrastive_diacritic: "vowel length is used to distinguish words, and declension is used to identify the class/gender of a word",
+    contrastive_diacritic: "Vowel length is used to distinguish words, and declension is used to identify the class/gender of a word",
     syllable_structure:"cvv",
     syllable_structure_2:"cv",
     john: "hone" ,
@@ -1130,7 +1130,7 @@ japanese = Language.create(
     language_family_id: japonic.id,
     orthography_id: kana.id,
     noun_classes: 0,
-    contrastive_diacritic: "mora-timed syllables, and uses vowel length to distinguish words",
+    contrastive_diacritic: "Mora-timed syllables, and uses vowel length to distinguish words",
     syllable_structure:"cv",
     syllable_structure_2:"vn",
     john: "d͡ʒon" ,
@@ -1148,7 +1148,7 @@ korean = Language.create(
     language_family_id: koreanic.id,
     orthography_id: hangul.id,
     noun_classes: 0,
-    contrastive_diacritic: "syllable-timed, and uses aspiration to distinguish words",
+    contrastive_diacritic: "Syllable-timed, and uses aspiration to distinguish words",
     syllable_structure:"cv",
     syllable_structure_2:"cvc",
     john: "joan",
@@ -1165,7 +1165,7 @@ mandarin = Language.create(
     language_family_id: sinitic.id,
     orthography_id: hanzi.id,
     noun_classes: 0,
-    contrastive_diacritic: "stress-timed, and uses tone to distinguish words",
+    contrastive_diacritic: "Stress-timed, and uses tone to distinguish words",
     syllable_structure:"cv",
     syllable_structure_2:"vn",
     john: "ʈ͡ʂan",
@@ -1183,7 +1183,7 @@ navajo = Language.create(
     language_family_id: athabaskan.id,
     orthography_id: latin.id,
     noun_classes: 2,
-    contrastive_diacritic: "uses tone, phonemic length, and aspiration to distinguish words",
+    contrastive_diacritic: "Uses tone, phonemic length, and aspiration to distinguish words",
     syllable_structure:"c?v",
     john: "dʒɔn",
     mary:"meɣi",
@@ -1200,7 +1200,7 @@ spanish = Language.create(
     language_family_id: italic.id,
     orthography_id: latin.id,
     noun_classes: 2,
-    contrastive_diacritic: "a syllable-timed language",
+    contrastive_diacritic: "A syllable-timed language",
     syllable_structure:"cv",
     syllable_structure_2:"ccv",
     john: "hjaŋ",
@@ -1217,7 +1217,7 @@ swahili = Language.create(
     language_family_id: benue.id,
     orthography_id: latin.id,
     noun_classes: 18,
-    contrastive_diacritic: "vowels are never reduced,regardless of stress. Some dialects use aspiration to distinguish words",
+    contrastive_diacritic: "Vowels are never reduced,regardless of stress. Some dialects use aspiration to distinguish words",
     syllable_structure:"cv",
     john: "d͡ʒnɛ",
     mary:"mɑriɑ",
