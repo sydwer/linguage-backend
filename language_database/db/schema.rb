@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_13_211436) do
+ActiveRecord::Schema.define(version: 2020_01_16_173327) do
 
   create_table "comparisons", force: :cascade do |t|
     t.integer "native_language_id"
@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 2020_01_13_211436) do
     t.integer "coordinate_value"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "description"
   end
 
   create_table "orthographies", force: :cascade do |t|

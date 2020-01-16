@@ -62,10 +62,22 @@ athabaskan = LanguageFamily.create(
     y_coordinate:-477.705883,
 )
 #MORPHOLOGIES
-polysynthetic = Morphology.create(name: "Polysynthetic", coordinate_value: 5)
-agglutinative = Morphology.create(name: "Agglutinative", coordinate_value: 4)
-fusional = Morphology.create(name: "Fusional", coordinate_value: 3)
-analytic = Morphology.create(name: "Analytic", coordinate_value: 0)
+polysynthetic = Morphology.create(
+    name: "Polysynthetic", 
+    coordinate_value: 5,
+    description: "A grammatical process characterized by complex words consisting of several morphemes, in which a single word may function as a whole sentence")
+agglutinative = Morphology.create(
+    name: "Agglutinative", 
+    coordinate_value: 4,
+    description: "A grammatical process in which words are composed of a sequence of morphemes (meaningful word elements), each of which represents not more than a single grammatical category.")
+fusional = Morphology.create(
+    name: "Fusional", 
+    coordinate_value: 3,
+    description: "A grammatical process with a tendency to use a single inflectional morpheme to denote multiple grammatical, syntactic, or semantic features.")
+analytic = Morphology.create(
+    name: "Analytic", 
+    coordinate_value: 0,
+    description: "A language that uses specific grammatical words, or particles, rather than inflection(changing or adding to a word), to express syntactic relations within sentences.")
 
 #ORTHOGRAPHIES
 latin = Orthography.create(
