@@ -81,7 +81,7 @@ analytic = Morphology.create(
 
 #ORTHOGRAPHIES
 latin = Orthography.create(
-    name:"The Latin alphabet",
+    name:"The Latin Alphabet",
     system:"Alphabetic (every symbol represents a consonant or vowel)",
     coordinate_value: 1,
 )
