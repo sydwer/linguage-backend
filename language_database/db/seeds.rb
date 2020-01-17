@@ -1063,7 +1063,7 @@ arabic = Language.create(
     noun_classes: 2,
     contrastive_diacritic: "Stress-timed syllables, uses vowel length and consonant aspiration to distinguish words",
     syllable_structure:"cv",
-    syllable_structure_2:"cvv",
+    syllable_structure_2:"cvl",
     john: "jahja",
     mary:"marjam",
 )
