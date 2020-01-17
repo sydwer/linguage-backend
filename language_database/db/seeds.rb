@@ -221,7 +221,7 @@ r = Phoneme.create(
     manner: "tap",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_tap.mp3",
-    latin: "d",  
+    latin: "r",  
 )
 ɽ = Phoneme.create(
     symbol: "ɽ",
@@ -229,7 +229,7 @@ r = Phoneme.create(
     manner: "tap",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Retroflex_flap.mp3",
-    latin: "rr",   
+    latin: "r",   
 )
 ɸ = Phoneme.create(
     symbol: "ɸ",
@@ -277,7 +277,7 @@ v = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_dental_fricative.mp3",
-    latin: "th",  
+    latin: "d",  
 )
 s = Phoneme.create(
     symbol: "s",
@@ -343,7 +343,7 @@ z = Phoneme.create(
     manner: "lateral fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolar_lateral_fricative.mp3",
-    latin: "tsl",  
+    latin: "ts",  
 )
 ʋ = Phoneme.create(
     symbol: "ʋ",
@@ -367,7 +367,7 @@ z = Phoneme.create(
     manner: "approximant",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Retroflex_approximant.mp3",
-    latin: "rh",  
+    latin: "r",  
 )
 l = Phoneme.create(
     symbol: "l",
@@ -383,7 +383,7 @@ l = Phoneme.create(
     manner: "lateral approximant",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Retroflex_lateral_approximant.mp3",
-    latin: "ll",  
+    latin: "l",  
 )
 c = Phoneme.create(
     symbol: "c",
@@ -423,7 +423,7 @@ q = Phoneme.create(
     manner: "plosive",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_uvular_plosive.mp3",
-    latin: "gh",  
+    latin: "g",  
 )
 ɢ = Phoneme.create(
     symbol: "ɢ",
@@ -431,7 +431,7 @@ q = Phoneme.create(
     manner: "plosive",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_uvular_plosive.mp3",
-    latin: "gh",  
+    latin: "g",  
 )
 ʔ = Phoneme.create(
     symbol: "ʔ",
@@ -471,7 +471,7 @@ q = Phoneme.create(
     manner: "trill",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Uvular_trill.mp3",
-    latin: "'rr",  
+    latin: "'r",  
 )
 ç = Phoneme.create(
     symbol: "ç",
@@ -487,7 +487,7 @@ q = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_palatal_fricative.mp3",
-    latin: "hyh",  
+    latin: "h",  
 )
 x = Phoneme.create(
     symbol: "x",
@@ -511,7 +511,7 @@ x = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_uvular_fricative.mp3",
-    latin: "'hh",  
+    latin: "'h",  
 )
 ʁ = Phoneme.create(
     symbol: "ʁ",
@@ -527,7 +527,7 @@ x = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_pharyngeal_fricative.mp3",
-    latin: "hh'",  
+    latin: "h'",  
 )
 ʕ = Phoneme.create(
     symbol: "ʕ",
@@ -731,7 +731,7 @@ d͡ʑ = Phoneme.create(
     manner: "affricate",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolo-palatal_affricate.mp3",
-    latin: "jh",
+    latin: "j",
 )
 ɖ͡ʐ = Phoneme.create(
     symbol: "ɖ͡ʐ",
@@ -755,7 +755,7 @@ p̪͡f = Phoneme.create(
     manner: "affricate",
     category: "consonant",
     sound_url: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Voiced_palatal_affricate.ogg",
-    latin: "jhy",
+    latin: "jh",
 )
 
 #end affricates
@@ -766,7 +766,7 @@ p̪͡f = Phoneme.create(
     manner: "approximant",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Labial-palatal_approximant.mp3",
-    latin: "hly",
+    latin: "h",
 )
 ʜ = Phoneme.create(
     symbol: "ʜ",
@@ -774,7 +774,7 @@ p̪͡f = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_epiglottal_fricative.mp3",
-    latin: "hky",
+    latin: "h",
 )
 ʢ = Phoneme.create(
     symbol: "ʢ",
@@ -782,14 +782,14 @@ p̪͡f = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url:"http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_epiglottal_fricative.mp3",
-    latin: "hlgy",
+    latin: "h",
 )
 ʡ = Phoneme.create(
     symbol: "ʡ",
     place: "epiglottal",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_epiglottal_plosive.mp3",
-    latin: "'hgly",
+    latin: "'hl",
 )
 ɕ = Phoneme.create(
     symbol: "ɕ",
@@ -813,7 +813,7 @@ p̪͡f = Phoneme.create(
     manner: "lateral flap",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Alveolar_tap.mp3",
-    latin: "rhl",
+    latin: "r",
 )
 ɧ = Phoneme.create(
     symbol: "ɧ",
@@ -821,7 +821,7 @@ p̪͡f = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "https://upload.wikimedia.org/wikipedia/commons/4/42/Voiceless_dorso-palatal_velar_fricative.ogg",
-    latin: "shwh",
+    latin: "shw",
 )
 #end "other"
 # begin basic vowels
@@ -831,7 +831,7 @@ i = Phoneme.create(
     manner: "close",
     category: "vowel",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_front_unrounded_vowel.mp3",
-    latin: "ee",
+    latin: "e",
 )
 y = Phoneme.create(
     symbol: "y",
@@ -863,7 +863,7 @@ y = Phoneme.create(
     manner: "close",
     category: "vowel",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_back_unrounded_vowel.mp3",
-    latin: "i-oo",
+    latin: "i",
 )
 u = Phoneme.create(
     symbol: "u",
@@ -871,7 +871,7 @@ u = Phoneme.create(
     manner: "close",
     category: "vowel",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_back_rounded_vowel.mp3",
-    latin: "oo",
+    latin: "u",
 )
 ɪ = Phoneme.create(
     symbol: "ɪ",
@@ -895,7 +895,7 @@ u = Phoneme.create(
     manner: "near-close",
     category: "vowel",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-close_near-back_rounded_vowel.mp3",
-    latin: "uh",
+    latin: "u",
 )
 e = Phoneme.create(
     symbol: "e",
@@ -911,7 +911,7 @@ e = Phoneme.create(
     manner: "close-mid",
     category: "vowel",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_front_rounded_vowel.mp3",
-    latin: "e-oo",
+    latin: "e",
 )
 ɘ = Phoneme.create(
     symbol: "ɘ",
@@ -935,7 +935,7 @@ e = Phoneme.create(
     manner: "close-mid",
     category: "vowel",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_back_unrounded_vowel.mp3",
-    latin: "o-uu",
+    latin: "o",
 )
 o = Phoneme.create(
     symbol: "o",
@@ -1000,7 +1000,7 @@ o = Phoneme.create(
     manner: "open-mid",
     category: "vowel",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_back_rounded_vowel.mp3",
-    latin: "awe",
+    latin: "a",
 )
 æ = Phoneme.create(
     symbol: "æ",
@@ -1066,7 +1066,7 @@ a = Phoneme.create(
     manner: "rotic",
     category: "vowel",
     sound_url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/PR-open-mid_back_rounded_vowel.ogg",
-    latin: "awr",
+    latin: "ar",
 )
 ɑ˞ = Phoneme.create(
     symbol: "ɔɑ˞",
@@ -1082,7 +1082,7 @@ a = Phoneme.create(
     manner: "rotic",
     category: "vowel",
     sound_url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-er.ogg",
-    latin: "ehr",
+    latin: "er",
 )
 
 #begin dipthongs
@@ -1148,7 +1148,7 @@ eə = Phoneme.create(
     manner: "dipthong",
     category: "vowel",
     sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
-    latin: "uer",
+    latin: "oi",
 )
 ɔʏ = Phoneme.create(
     symbol: "ɔʏ",
@@ -1156,7 +1156,7 @@ eə = Phoneme.create(
     manner: "dipthong",
     category: "vowel",
     sound_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
-    latin: "oye"
+    latin: "oi"
 )
 
 #LANGUAGES
@@ -1189,8 +1189,8 @@ english = Language.create(
     orthography_id: latin.id,
     noun_classes: 0,
     contrastive_diacritic: "Stressed-timed syllables",
-    syllable_structure:"ccv",
-    syllable_structure_2:"cv",
+    syllable_structure:"cv",
+    syllable_structure_2:"ccv",
     john: "d͡ʒan",
     mary:"mɛri",
 )
@@ -1312,7 +1312,7 @@ spanish = Language.create(
     noun_classes: 2,
     contrastive_diacritic: "A syllable-timed language",
     syllable_structure:"cv",
-    syllable_structure_2:"ccv",
+    # syllable_structure_2:"ccv",
     john: "hjaŋ",
     mary: "maɾija",
 )
