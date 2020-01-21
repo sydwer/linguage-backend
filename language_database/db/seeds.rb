@@ -527,7 +527,7 @@ x = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_pharyngeal_fricative.mp3",
-    latin: "h'",  
+    latin: "h",  
 )
 ʕ = Phoneme.create(
     symbol: "ʕ",
@@ -535,7 +535,7 @@ x = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_pharyngeal_fricative.mp3",
-    latin: "gh'",  
+    latin: "gh",  
 )
 h = Phoneme.create(
     symbol: "h",
@@ -543,7 +543,7 @@ h = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_glottal_fricative.mp3",
-    latin: "h'",  
+    latin: "h",  
 )
 ɦ = Phoneme.create(
     symbol: "ɦ",
@@ -551,7 +551,7 @@ h = Phoneme.create(
     manner: "fricative",
     category: "consonant",
     sound_url: "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_glottal_fricative.mp3",
-    latin: "h'",  
+    latin: "h",  
 )
 j = Phoneme.create(
     symbol: "j",
@@ -1312,7 +1312,7 @@ spanish = Language.create(
     noun_classes: 2,
     contrastive_diacritic: "A syllable-timed language",
     syllable_structure:"cv",
-    # syllable_structure_2:"ccv",
+    syllable_structure_2:"ccv",
     john: "hjaŋ",
     mary: "maɾija",
 )
@@ -1486,7 +1486,7 @@ LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: m.id)
 LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: n.id)
 LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: p.id)
 LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: t.id)
-LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: v.id)
+# LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: v.id)
 LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: w.id)
 LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: ʔ.id)
 LanguagePhoneme.create(language_id: hawaiian.id, phoneme_id: a.id)
