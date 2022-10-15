@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace linguage_backend.Data.Models
+{
+    public partial class Phoneme
+    {
+        public string? Symbol { get; set; }
+        public string? Place { get; set; }
+        public string? Manner { get; set; }
+        public string? Category { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public string? SoundUrl { get; set; }
+        public string? Latin { get; set; }
+    }
+}
