@@ -39,22 +39,10 @@ namespace linguage_backend.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "language_phonemes",
-                columns: table => new
-                {
-                    language_id = table.Column<int>(type: "int", nullable: true),
-                    phoneme_id = table.Column<int>(type: "int", nullable: true),
-                    created_at = table.Column<DateTime>(type: "datetime", nullable: false),
-                    updated_at = table.Column<DateTime>(type: "datetime", nullable: false)
-                },
-                constraints: table =>
-                {
-                });
-
-            migrationBuilder.CreateTable(
                 name: "languages",
                 columns: table => new
                 {
+                    id = table.Column<int>(type:"int",nullable:false),
                     name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     written_name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     hello = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -75,6 +63,7 @@ namespace linguage_backend.Migrations
                 },
                 constraints: table =>
                 {
+                    table.PrimaryKey("language_primarykey", x => x.id); 
                 });
 
             migrationBuilder.CreateTable(
@@ -109,6 +98,7 @@ namespace linguage_backend.Migrations
                 name: "phonemes",
                 columns: table => new
                 {
+                    id = table.Column<int>(type: "int", nullable: false),
                     symbol = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     place = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     manner = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -120,6 +110,22 @@ namespace linguage_backend.Migrations
                 },
                 constraints: table =>
                 {
+                    table.PrimaryKey("phoneme_primarykey", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "language_phonemes",
+                columns: table => new
+                {
+                    language_id = table.Column<int>(type: "int", nullable: false),
+                    phoneme_id = table.Column<int>(type: "int", nullable: false),
+                    created_at = table.Column<DateTime>(type: "datetime", nullable: false),
+                    updated_at = table.Column<DateTime>(type: "datetime", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.ForeignKey("FK_language_languagephonemes", x => x.language_id, "languages", "id");
+                    table.ForeignKey("FK_phoneme_languagephonemes", x => x.phoneme_id, "phonemes", "id");
                 });
         }
 
