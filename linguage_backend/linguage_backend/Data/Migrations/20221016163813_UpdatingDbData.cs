@@ -1782,7 +1782,704 @@ namespace linguage_backend.Migrations
                         "shw"
                     }
                 });
-                       
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "i",
+                        "front",
+                        "close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_front_unrounded_vowel.mp3",
+                        "e"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "y",
+                        "front",
+                        "close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_front_rounded_vowel.mp3",
+                        "i"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɨ",
+                        "central",
+                        "close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_central_unrounded_vowel.mp3",
+                        "e"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ʉ",
+                        "central",
+                        "close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_central_rounded_vowel.mp3",
+                        "e-oo"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɯ",
+                        "back",
+                        "close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_back_unrounded_vowel.mp3",
+                        "i"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "u",
+                        "back",
+                        "close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close_back_rounded_vowel.mp3",
+                        "u"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɪ",
+                        "near-front",
+                        "near-close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-close_near-front_unrounded_vowel.mp3",
+                        "i"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ʏ",
+                        "near-front",
+                        "near-close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-close_near-front_rounded_vowel.mp3",
+                        "i"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ʊ",
+                        "near-back",
+                        "near-close",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-close_near-back_rounded_vowel.mp3",
+                        "u"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "e",
+                        "front",
+                        "close-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_front_unrounded_vowel.mp3",
+                        "e"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ø",
+                        "front",
+                        "close-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_front_rounded_vowel.mp3",
+                        "e"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɘ",
+                        "central",
+                        "close-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_central_unrounded_vowel.mp3",
+                        "u"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɵ",
+                        "central",
+                        "close-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_central_rounded_vowel.mp3",
+                        "u"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɤ",
+                        "back",
+                        "close-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_back_unrounded_vowel.mp3",
+                        "o"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "o",
+                        "back",
+                        "close-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Close-mid_back_rounded_vowel.mp3",
+                        "o"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɛ",
+                        "front",
+                        "open-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_front_unrounded_vowel.mp3",
+                        "e"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "œ",
+                        "mid-front",
+                        "open-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_front_rounded_vowel.mp3",
+                        "ey"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɜ",
+                        "central",
+                        "open-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_central_unrounded_vowel.mp3",
+                        "e"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɞ",
+                        "near-back",
+                        "open-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_central_rounded_vowel.mp3",
+                        "u"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ʌ",
+                        "back",
+                        "open-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_back_unrounded_vowel.mp3",
+                        "u"
+                    }
+                });
+                    
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ə",
+                        "central",
+                        "mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Mid-central_vowel.mp3",
+                        "e"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɔ",
+                        "back",
+                        "open-mid",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open-mid_back_rounded_vowel.mp3",
+                        "a"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "æ",
+                        "front",
+                        "near-open",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-open_front_unrounded_vowel.mp3",
+                        "ae"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɐ",
+                        "central",
+                        "near-open",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Near-open_central_unrounded_vowel.mp3",
+                        "ah"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "a",
+                        "central",
+                        "open",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open_front_rounded_vowel.mp3",
+                        "a"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ä",
+                        "near-back",
+                        "open",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open_front_unrounded_vowel.mp3",
+                        "uh"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɑ",
+                        "back",
+                        "open",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open_back_unrounded_vowel.mp3",
+                        "a"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɒ",
+                        "back",
+                        "open",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Open_back_rounded_vowel.mp3",
+                        "ao"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɚ",
+                        "back",
+                        "rotic",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-er.ogg",
+                        "er"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɔ˞",
+                        "back",
+                        "rotic",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/d/d0/PR-open-mid_back_rounded_vowel.ogg",
+                        "ar"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɔɑ˞",
+                        "back",
+                        "rotic",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-er.ogg",
+                        "ar"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɝ",
+                        "mid",
+                        "rotic",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-er.ogg",
+                        "er"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "aɪ",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "ai"
+                    }
+                });
+
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "eɪ",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "ei"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "oʊ",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "ou"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "aʊ",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "ow"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "eə",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "ai"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɪə",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "ea"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɔɪ",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "oi"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ʊə",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "oi"
+                    }
+                });
+            
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ɔʏ",
+                        "variant",
+                        "dipthong",
+                        "vowel",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "https://upload.wikimedia.org/wikipedia/commons/1/17/En-us-no_highway_cowboys.ogg",
+                        "oi"
+                    }
+                });
+
 
         }
 
