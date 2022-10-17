@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -42,7 +43,7 @@ namespace linguage_backend.Migrations
                 name: "languages",
                 columns: table => new
                 {
-                    id = table.Column<int>(type:"int",nullable:false),
+                    id = table.Column<int>(type:"int",nullable:false).Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     written_name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     hello = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -98,7 +99,7 @@ namespace linguage_backend.Migrations
                 name: "phonemes",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false),
+                    id = table.Column<int>(type: "int", nullable: false).Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     symbol = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     place = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     manner = table.Column<string>(type: "nvarchar(max)", nullable: true),

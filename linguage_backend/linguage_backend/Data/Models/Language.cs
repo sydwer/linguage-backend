@@ -9,7 +9,7 @@ namespace linguage_backend.Data.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string? Name { get; set; }
         public string? WrittenName { get; set; }
         public string? Hello { get; set; }

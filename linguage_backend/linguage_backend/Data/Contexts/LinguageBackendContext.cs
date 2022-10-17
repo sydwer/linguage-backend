@@ -57,7 +57,9 @@ namespace linguage_backend.Data.Contexts
 
             modelBuilder.Entity<Language>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
+                entity.Property(e => e.Id).UseIdentityColumn();
 
                 entity.ToTable("languages");
 
@@ -186,7 +188,9 @@ namespace linguage_backend.Data.Contexts
 
             modelBuilder.Entity<Phoneme>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
+                entity.Property(e => e.Id).UseIdentityColumn();
 
                 entity.ToTable("phonemes");
 
