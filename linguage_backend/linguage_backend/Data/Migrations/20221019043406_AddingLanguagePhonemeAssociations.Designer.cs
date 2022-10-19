@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using linguage_backend.Data.Contexts;
 
@@ -11,9 +12,10 @@ using linguage_backend.Data.Contexts;
 namespace linguage_backend.Migrations
 {
     [DbContext(typeof(LinguageBackendContext))]
-    partial class LinguageBackendContextModelSnapshot : ModelSnapshot
+    [Migration("20221019043406_AddingLanguagePhonemeAssociations")]
+    partial class AddingLanguagePhonemeAssociations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

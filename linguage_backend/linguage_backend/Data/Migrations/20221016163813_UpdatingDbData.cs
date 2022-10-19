@@ -1559,10 +1559,27 @@ namespace linguage_backend.Migrations
                         DateTime.Now,
                         DateTime.Now,
                         "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_retroflex_affricate.mp3",
-                        "tcha"
+                        "chy"
                     }
                 });
-            
+
+            migrationBuilder.InsertData(
+               table: "phonemes",
+               columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+               values: new object[,]
+               {
+                    {
+                        "ʈ͡ʂ",
+                        "retroflex",
+                        "affricate",
+                        "consonant",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiceless_retroflex_affricate.mp3",
+                        "tcha"
+                    }
+               });
+
             migrationBuilder.InsertData(
                 table: "phonemes",
                 columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
@@ -1749,7 +1766,24 @@ namespace linguage_backend.Migrations
                         "tsh"
                     }
                 });
-            
+
+            migrationBuilder.InsertData(
+                table: "phonemes",
+                columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
+                values: new object[,]
+                {
+                    {
+                        "ʑ",
+                        "alveolo-palatal",
+                        "fricative",
+                        "consonant",
+                        DateTime.Now,
+                        DateTime.Now,
+                        "http://www.internationalphoneticalphabet.org/ipa-chart-audio/mp3/Voiced_alveolo-palatal_fricative.mp3",
+                        "zcha"
+                    }
+                });
+
             migrationBuilder.InsertData(
                 table: "phonemes",
                 columns: new[] { "symbol", "place", "manner", "category", "created_at", "updated_at", "sound_url", "latin" },
