@@ -1,4 +1,5 @@
-﻿using linguage_backend.Data.Models;
+﻿using linguage_backend.Data.Contexts;
+using linguage_backend.Data.Models;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.FileSystemGlobbing;
 using static System.Net.WebRequestMethods;
@@ -2480,6 +2481,217 @@ namespace linguage_backend.Migrations
                     }
                 });
 
+            ///////////////////////////////////////////
+            ///
+            /// Languages 
+            /// 
+            ///////////////////////////////////////////
+            migrationBuilder.Sql(@"USE [linguage-backend]
+GO
+
+INSERT INTO [dbo].[languages]
+           ([name]
+           ,[written_name]
+           ,[hello]
+           ,[speakers]
+           ,[flag]
+           ,[duolingo]
+           ,[contrastive_diacritic]
+           ,[syllable_structure]
+           ,[syllable_structure_2]
+           ,[mary]
+           ,[john]
+           ,[morphology_id]
+           ,[language_family_id]
+           ,[orthography_id]
+           ,[noun_classes]
+           ,[created_at]
+           ,[updated_at])
+     VALUES
+           ('Arabic',
+           N'ٱلْعَرَبِيَّة',
+           N'اهلا',
+		   '310 million',
+		   'eg',
+		   'ar',
+           'Stress-timed syllables, uses vowel length and consonant aspiration to distinguish words',
+		   'cv',
+		   'cvl',
+		   'marjam',
+		   'jahja',
+		   (SELECT TOP 1 m.Id FROM dbo.morphologies m WHERE m.name = 'Agglutinative'),
+		   (SELECT TOP 1 lf.Id FROM language_families lf WHERE lf.specific_family = 'Semitic'),
+		   (SELECT TOP 1 o.Id FROM orthographies o WHERE o.name = 'Arabic script'),
+		   2,
+		   GETDATE(),
+		   GETDATE()
+		   ), 
+           ('English',
+           'English',
+           'hello',
+		   '1.5 billion',
+		   'gb',
+		   'https://www.duolingo.com/enroll/en/es/Learn-English',
+           'Stressed-timed syllables',
+		   'cv',
+		   'ccv',
+		   N'mɛri',
+		   N'd͡ʒan',
+		   (SELECT TOP 1 m.Id FROM dbo.morphologies m WHERE m.name = 'Analytic'),
+		   (SELECT TOP 1 lf.Id FROM language_families lf WHERE lf.specific_family = 'Germanic'),
+		   (SELECT TOP 1 o.Id FROM orthographies o WHERE o.name = 'The Latin Alphabet'),
+		   0,
+		   GETDATE(),
+		   GETDATE()
+		   ),
+           ('German',
+           'Deutsch',
+           'Hallo',
+		   'approx. 210 million""',
+		   'de',
+		   'de',
+           'Stress-timed syllables, strict placement of verbs within sentances',
+		   'cv',
+		   'cvc',
+		   N'mɛri',
+		   'hans',
+		   (SELECT TOP 1 m.Id FROM dbo.morphologies m WHERE m.name = 'agglutinative'),
+		   (SELECT TOP 1 lf.Id FROM language_families lf WHERE lf.specific_family = 'Germanic'),
+		   (SELECT TOP 1 o.Id FROM orthographies o WHERE o.name = 'The Latin Alphabet'),
+		   3,
+		   GETDATE(),
+		   GETDATE()
+		   ),
+           ('Hawaiian',
+           N'ʻŌlelo Hawaiʻi',
+           'Aloha',
+		   'approx. 30 thousand',
+		   'um',
+		   'hw',
+           'Vowel length is used to distinguish words, and declension is used to identify the class/gender of a word',
+		   'cvv',
+		   'cv',
+		   'malia',
+		   'hone',
+		   (SELECT TOP 1 Id FROM dbo.morphologies m WHERE m.name = 'analytic'),
+		   (SELECT TOP 1 Id FROM language_families lf WHERE lf.specific_family = 'polynesian'),
+		   (SELECT TOP 1 Id FROM orthographies o WHERE o.name = 'The Latin Alphabet'),
+           2,
+		   GETDATE(),
+		   GETDATE()
+		   ),
+           ('Japanese',
+           N'日本語',
+           N'こんにちは',
+		   '128 million',
+		   'jp',
+		   'ja',
+           'Mora-timed syllables, and uses vowel length to distinguish words',
+		   'cv',
+		   'vn',
+		   N'mɜɾi',
+		   N'd͡ʒon',
+		   (SELECT TOP 1 Id FROM dbo.morphologies m WHERE m.name = 'agglutinative'),
+		   (SELECT TOP 1 Id FROM language_families lf WHERE lf.specific_family = 'Japanese'),
+		   (SELECT TOP 1 Id FROM orthographies o WHERE o.name = 'Hirigana, Katakana, and Kanji'),
+		   0,
+		   GETDATE(),
+		   GETDATE()
+		   ),
+           ('Korean',
+           N'한국어',
+           N'안녕하세요',
+		   '75 million',
+		   'kr',
+		   'ko',
+           'Syllable-timed, and uses aspiration to distinguish words',
+		   'cv',
+		   'cvc',
+		   N'mɜɾi',
+		   'joan',
+		   (SELECT TOP 1 Id FROM dbo.morphologies m WHERE m.name = 'agglutinative'),
+		   (SELECT TOP 1 Id FROM language_families lf WHERE lf.specific_family = 'koreanic'),
+		   (SELECT TOP 1 Id FROM orthographies o WHERE o.name = 'hangul'),
+		   0,
+		   GETDATE(),
+		   GETDATE()
+		   ),
+           ('Mandarin',
+           N'普通话',
+           N'你好',
+		   '1.3 billion',
+		   'cn',
+		   'zh',
+           'Stress-timed, and uses tone to distinguish words',
+		   'cv',
+		   'vn',
+		   N'maɾija',
+		   N'ʈ͡ʂan',
+		   (SELECT TOP 1 Id FROM dbo.morphologies m WHERE m.name = 'analytic'),
+		   (SELECT TOP 1 Id FROM language_families lf WHERE lf.specific_family = 'sinitic'),
+		   (SELECT TOP 1 Id FROM orthographies o WHERE o.name = 'hanzi'),
+		   0,
+		   GETDATE(),
+		   GETDATE()
+		   ),
+           ('Navajo',
+           N'Diné bizaad',
+           N'Yá''át''ééh',
+		   '170 thousand',
+		   'us',
+		   'nv',
+           'Uses tone, phonemic length, and aspiration to distinguish words',
+		   'c?v',
+		   null,
+		   N'meɣi',
+		   N'dʒɔn',
+		   (SELECT TOP 1 Id FROM dbo.morphologies m WHERE m.name = 'polysynthetic'),
+		   (SELECT TOP 1 Id FROM language_families lf WHERE lf.specific_family = 'athabaskan'),
+		   (SELECT TOP 1 Id FROM orthographies o WHERE o.name = 'The Latin Alphabet'),
+		   2,
+		   GETDATE(),
+		   GETDATE()
+		   ),
+           ('Spanish',
+           N'Español',
+           'Hola',
+		   'approx. 593 million',
+		   'es',
+		   'es',
+           'A syllable-timed language',
+		   'cv',
+		   'ccv',
+		   N'maɾija',
+		   N'hjaŋ',
+		   (SELECT TOP 1 Id FROM dbo.morphologies m WHERE m.name = 'fusional'),
+		   (SELECT TOP 1 Id FROM language_families lf WHERE lf.specific_family = 'italic'),
+		   (SELECT TOP 1 Id FROM orthographies o WHERE o.name = 'The Latin Alphabet'),
+		   2,
+		   GETDATE(),
+		   GETDATE()
+		   ),
+           ('Swahili',
+           'Kiswahili',
+           'Hamjambo',
+		   'approx. 125 million',
+		   'tz',
+		   'sw',
+           'Vowels are never reduced,regardless of stress. Some dialects use aspiration to distinguish words',
+		   'cv',
+		   null,
+		   N'mɑriɑ',
+		   N'd͡ʒnɛ',
+		   (SELECT TOP 1 Id FROM dbo.morphologies m WHERE m.name = 'agglutinative'),
+		   (SELECT TOP 1 Id FROM language_families lf WHERE lf.specific_family = 'Benue-Congo'),
+		   (SELECT TOP 1 Id FROM orthographies o WHERE o.name = 'The Latin Alphabet'),
+		   18,
+		   GETDATE(),
+		   GETDATE()
+		   )
+           
+GO
+ ");
+
 
         }
 
@@ -2489,6 +2701,7 @@ namespace linguage_backend.Migrations
             migrationBuilder.Sql(@"DELETE * FROM morphologies;");
             migrationBuilder.Sql(@"DELETE * FROM orthographies;");
             migrationBuilder.Sql(@"DELETE * FROM phonemes;");
+            migrationBuilder.Sql(@"DELETE * FROM languages;");
         }
     }
 }
