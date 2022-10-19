@@ -67,8 +67,7 @@ namespace linguage_backend.Migrations
 
                     b.Property<string>("Hello")
                         .HasColumnType("nvarchar(max)")
-                        .HasColumnName("hello")
-                        .UseCollation("Latin1_General_100_CI_AI_SC_UTF8");
+                        .HasColumnName("hello");
 
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
@@ -120,8 +119,7 @@ namespace linguage_backend.Migrations
 
                     b.Property<string>("WrittenName")
                         .HasColumnType("nvarchar(max)")
-                        .HasColumnName("written_name")
-                        .UseCollation("Latin1_General_100_CI_AI_SC_UTF8"); ;
+                        .HasColumnName("written_name");
 
                     b.ToTable("languages", (string)null);
                 });

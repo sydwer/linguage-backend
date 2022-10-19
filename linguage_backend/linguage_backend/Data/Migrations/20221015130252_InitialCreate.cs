@@ -108,7 +108,7 @@ namespace linguage_backend.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false).Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    symbol = table.Column<string>(type: "nvarchar(max)", nullable: true, collation: "Latin1_General_BIN"),
+                    symbol = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     place = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     manner = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     category = table.Column<string>(type: "nvarchar(max)", nullable: true),
